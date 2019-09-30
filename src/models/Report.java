@@ -38,7 +38,7 @@ public class Report {
     private String title;
 
     @Lob
-    @Column(name = "content", nullable = false)
+    @Column(name = "content", nullable = false) //Lobアノテーション
     private String content;
 
     @Column(name = "created_at", nullable = false)
